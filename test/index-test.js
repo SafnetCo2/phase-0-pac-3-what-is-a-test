@@ -1,4 +1,6 @@
+const { describe } = require("mocha");
 const { name, height, message } = require("../index.js");
+const { expect } = require("chai");
 
 /*
 describe('what-is-a-test', () => {
@@ -7,6 +9,7 @@ describe('what-is-a-test', () => {
       expect(name).toEqual('Susan')
     })
   })
+
 
 
   describe('Height', () => {
